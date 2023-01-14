@@ -1,0 +1,35 @@
+.App {
+  /* text-align: center; */
+  margin: 30px auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  width: auto;
+  background-color: blanchedalmond;
+  display: grid;
+  place-content: center;
+}
+.search {
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 5px;
+  padding: 10px;
+  font-size: 20px;
+  width: auto;
+}
+table {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  /* font-size: 3rem; */
+  cursor: pointer;
+  /* color: #0000; */
+  /* background: linear-gradient(90deg, #1880ad 50%, #000 0) var(--_p, 100%) / 200%
+    no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text; */
+  transition: 0.4s;
+}
+tr:hover {
+  color: blue;
+}
